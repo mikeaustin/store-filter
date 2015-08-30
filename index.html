@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+    	* {
+    		margin: 0; padding: 0;
+    		font: 15px/1.5 Helvetica;
+    		list-style: none;
+    	}
+
+		body {
+			xbackground: #eeeeee;
+		}
+
+		#filter {
+			xfloat: left;
+			position: fixed;
+			top: 0; left: 0; right: 250px; bottom: 0;
+			width: 250px;
+			xmargin: 0 0 0 5px;
+			background: #f8f8f8;
+			xborder: 1px solid #e8e8e8;
+			border-right: 1px solid #e0e0e0;
+		}
+
+		#filter * {
+			font-size: 12px;
+		}
+
+		#filter ul {
+			margin: 0 0 5px 0;
+			padding: 5px 0 5px 0;
+			xbackground: #f8f8f8;
+			xborder: 1px solid #e8e8e8;
+		}
+    
+    	#filter h1 {
+    		font-weight: bold;
+    		padding: 0 0 5px 5px;
+    		margin: 0 5px 5px 5px;
+    		xborder-bottom: 1px solid #e8e8e8;
+    		border-bottom: 1px solid #e0e0e0;
+    	}
+    
+    	#filter li {
+    		padding: 5px 7px 5px 10px;
+    	}
+
+		#filter li input {
+			position: relative;
+			top: -1px;
+		}
+    
+    	#filter li:hover {
+    		background: #eeeeee;
+    	}
+    
+    	#filter li label {
+    		display: block;
+    	}
+    
+    	#content {
+    		margin: 5px 0 0 260px;
+    		background: white;
+    	}
+    
+    	#content ul li {
+    		padding: 0 0 0 5px;
+    		margin: 5px 0 0 5px;
+    		border-bottom: 1px dotted #e0e0e0;
+    		overflow: hidden;
+    	}
+    
+    	#content ul li img {
+    		float: left;
+    	}
+    </style>
+</head>
+<body>
+	<div id="filter">
+		<ul>
+			<h1>Form Factor</h1>
+			<li><label><input type="checkbox"/> &nbsp;ATX</label></li>
+			<li><label><input type="checkbox"/> &nbsp;Micro ATX</label></li>
+			<li><label><input type="checkbox"/> &nbsp;Mini ITX</label></li>
+		</ul>
+		<ul>
+			<h1>Socket Type</h1>
+			<li><label><input type="checkbox"/> &nbsp;LGA 1150</label></li>
+			<li><label><input type="checkbox"/> &nbsp;LGA 1151</label></li>
+		</ul>
+		<ul>
+			<h1>CPU Type</h1>
+			<li><label><input type="checkbox"/> &nbsp;Core i7 Skylake</label></li>
+		</ul>
+		<ul>
+			<h1>Chipset</h1>
+			<li><label><input type="checkbox"/> &nbsp;Intel 9 Series</label></li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<ul>
+			<li>
+				<img src="ASUS.jpg"/>
+				<div style="float: left; width: 400px; font-weight: bold; margin-top: 10px; margin-left: 20px;">
+				ASUS MAXIMUS VI IMPACT LGA 1150 Intel Z87 HDMI SATA 6Gb/s USB 3.0 Mini ITX Intel Motherboard
+				</div>
+			</li>
+			<li><img src="ASUS.jpg"/></li>
+			<li><img src="ASUS.jpg"/></li>
+		</ul>
+	</div>
+</body>
+</html>
